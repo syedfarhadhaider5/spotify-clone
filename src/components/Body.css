@@ -1,0 +1,51 @@
+.Body{
+    flex: .8;
+    color: white;
+    padding: 30px;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+  background-color: rgb(91, 87, 115);
+  height: 200vh;
+
+}
+.body_album{
+  display: flex;
+  align-items: flex-end;
+}
+.body_album > img{
+  height: 15vw;
+  
+}
+.body_album_info{
+  flex: 1;
+}
+.body_album_info{
+  margin-left: 20px;
+}
+.body_album_info > h2{
+  font-size: 48px;
+  margin-bottom: 0px;
+ margin-top: 0px;
+}
+.body_album_info > strong{
+  margin-bottom: -200px;
+
+}
+.body_album_info > p{
+  font-size: 14px;
+  margin-bottom: 0px;
+
+}
+.play_song_icons{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+.circle_play{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.play_song_icons > .MuiSvgIcon-root:first-child{
+  font-size: 75px;
+  color: #1ed15e;
+}

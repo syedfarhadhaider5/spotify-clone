@@ -1,0 +1,20 @@
+.SidebarOptions{
+    display: flex;
+    align-items: center;
+    color: gray;
+    height: 40px;
+    padding-left: 10px;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
+.SidebarOptions:hover {
+    color: white;
+}
+.SidebarOptions__icon{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.SidebarOptions > p{
+    margin-left: 10px;
+    font-size: 14px;
+}

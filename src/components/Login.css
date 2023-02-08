@@ -1,0 +1,17 @@
+.Login{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+}
+.Login > img{
+    width: 40%;
+}
+.Login > a  > button{
+    padding: 20px;
+    background-color: #1db954;
+    color: white;
+    border-radius: 99px;
+    cursor: pointer;
+    text-decoration: none;
+}
